@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Замовлення піци</title>
+</head>
+<body>
+
+    <h2>Замовлення піци online</h2>
+
+    <form action="#" method="post">
+        
+        <div>
+            <label for="username">Ваше ім'я:</label><br>
+            <input type="text" id="username" name="username" placeholder="Введіть ваше ім'я" required>
+        </div><br>
+
+        <div>
+            <label for="phone">Номер телефону:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="+380XXXXXXXXX">
+        </div><br>
+
+        <div>
+            <label for="size">Розмір піци:</label><br>
+            <select id="size" name="size">
+                <option value="small">Маленька (25 см)</option>
+                <option value="medium" selected>Середня (30 см)</option>
+                <option value="large">Велика (40 см)</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label>Виберіть соус:</label><br>
+            <input type="radio" id="sauce_tomato" name="sauce" value="tomato" checked>
+            <label for="sauce_tomato">Томатний</label><br>
+            <input type="radio" id="sauce_cream" name="sauce" value="cream">
+            <label for="sauce_cream">Вершковий</label><br>
+            <input type="radio" id="sauce_garlic" name="sauce" value="garlic">
+            <label for="sauce_garlic">Часниковий</label>
+        </div><br>
+
+        <div>
+            <label>Додаткові інгредієнти:</label><br>
+            <input type="checkbox" id="crust" name="extras" value="cheese_crust">
+            <label for="crust">Сирний бортик</label><br>
+            <input type="checkbox" id="meat" name="extras" value="double_meat">
+            <label for="meat">Подвійне м'ясо</label><br>
+            <input type="checkbox" id="mushrooms" name="extras" value="mushrooms">
+            <label for="mushrooms">Гриби</label><br>
+            <input type="checkbox" id="oil" name="extras" value="olive_oil">
+            <label for="oil">Оливкове масло</label>
+        </div><br>
+
+        <div>
+            <label for="comments">Адреса доставки та побажання до кур'єра:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Введіть вулицю, будинок, під'їзд або інші деталі..."></textarea>
+        </div><br>
+
+        <div>
+            <input type="submit" value="Оформити замовлення">
+        </div>
+
+    </form>
+
+</body>
+</html>
