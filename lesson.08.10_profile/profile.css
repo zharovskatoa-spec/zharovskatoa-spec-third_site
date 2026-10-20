@@ -1,0 +1,83 @@
+/* Заголовок сторінки */
+#profile-header {
+    text-align: center;
+    text-transform: uppercase;
+    color: #0f172a;
+}
+
+/* Контейнер картки профілю */
+.profile-card {
+    width: 320px;
+    height: 620px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 2px solid #cbd5e1;
+}
+
+/* Блок аватарки */
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    background-color: #2563eb;
+    color: #ffffff;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Бейдж статусу */
+.profile-badge {
+    background-color: #dcfce7;
+    color: #166534;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* Ім'я */
+.profile-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+/* Посада */
+.profile-role {
+    font-size: 13px;
+    font-style: italic;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* Опис */
+.profile-desc {
+    font-size: 12px;
+    color: #475569;
+    padding: 0 15px;
+    line-height: 1.4;
+}
+
+/* Список навичок */
+.profile-features {
+    text-align: left;
+    font-size: 13px;
+    color: #334155;
+    line-height: 1.6;
+    padding-left: 30px;
+}
+
+/* Кнопка зв'язку */
+.btn-telegram {
+    display: inline-block;
+    width: 240px;
+    height: 40px;
+    background-color: #1e293b;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+}

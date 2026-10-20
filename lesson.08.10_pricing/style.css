@@ -1,0 +1,66 @@
+/* Крок 1: Заголовок сторінки та контейнер картки */
+#pricing-header {
+    text-align: center;
+    text-transform: uppercase;
+    color: #0f172a;
+}
+
+.plan-card {
+    width: 320px;
+    height: 600px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 2px solid #2563eb;
+}
+
+/* Крок 2: Бейдж та назва тарифу */
+.plan-badge {
+    background-color: #dbeafe;
+    color: #1d4ed8;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.plan-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e293b;
+    letter-spacing: 1px;
+}
+
+.plan-subtitle {
+    font-size: 13px;
+    font-style: italic;
+    color: #64748b;
+}
+
+/* Крок 3: Ціновий блок */
+.price-old {
+    font-size: 13px;
+    color: #94a3b8;
+    text-decoration: line-through;
+}
+
+.price-main {
+    font-size: 28px;
+    font-weight: bold;
+    color: #059669;
+}
+
+/* Крок 4: Список переваг */
+.plan-features {
+    text-align: left;
+    font-size: 13px;
+    color: #334155;
+    line-height: 1.6;
+}
+
+/* Крок 5: Кнопка вибору тарифу */
+.btn-select {
+    width: 240px;
+    height: 42px;
+    background-color: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+}
